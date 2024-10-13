@@ -1,0 +1,145 @@
+    body {
+        text-align: center;
+        background-color: #161a1d;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    nav {
+        padding: 30px;
+    }
+
+    #logo {
+        height: 100px;
+        width: 200px;
+    }
+
+    #p {
+        margin: 0.5%;
+        background-color: #ba181b;
+        color: black;
+        padding: 10px 25px;
+        border-radius: 30px;
+        text-decoration: none;
+        border: 1px solid  white;
+    }
+
+    #p:hover {
+        color: black;
+        padding: 15px 30px;
+    }
+
+
+    #info {
+        background-color: #ba181b;
+        color: black;
+        margin-left: 30%;
+        margin-right: 30%;
+        border-radius: 50px;
+        border: 1px solid white;
+        text-align: left;
+        padding: 20px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+
+    a {
+        outline: none;
+        text-decoration: none;
+    }
+
+    a:focus {
+        outline: none;
+    }
+
+    a:active, a:hover {
+        outline: none;
+        border: none;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* Desactiva el highlight en móviles */
+    }
+
+
+
+    #gal {
+        height: 100px;
+        width: 100px;
+        margin: 20px;
+        border-radius: 20px;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+        /* Sin borde directamente sobre la imagen */
+        border: none;
+
+        /* Contorno rojo oscuro y borde blanco afuera */
+        box-shadow: 
+            0 0 0 5px #ba181b,  /* Contorno rojo oscuro alrededor de la imagen */
+            0 0 0 6px white,    /* Borde blanco externo */
+            0 0 10px 3px rgba(0, 0, 0, 0.5);  /* Sombra difusa negra para profundidad */
+    }
+
+    #gal:hover {
+        height: 120px;
+        width: 120px;
+        border-radius: 20px;
+
+        /* Mantener el contorno rojo y el borde blanco en hover */
+        box-shadow: 
+            0 0 0 5px #ba181b,  /* Contorno rojo oscuro alrededor de la imagen */
+            0 0 0 6px white,    /* Borde blanco externo */
+            0 0 10px 3px rgba(0, 0, 0, 0.5);  /* Sombra difusa negra */
+    }
+
+    footer {
+        background-color: #ba181b;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-top: 5px;
+        border-radius: 20px;
+        border: white solid 1px;
+    }
+
+    p {
+        margin: 5px;
+        
+    }
+
+    img#story {
+        height: 200px;
+        width: 250px;
+        display: block;
+        margin: auto;
+        border-radius: 10px;
+    }
+
+    #moriri {
+        height: 280px;
+        width: 200px;
+        display: block;
+        margin: auto;
+        border-radius: 10px;
+    }
+
+    #log {
+        height: 100px;
+        width: 200px;
+        display: block;
+        margin: auto;
+    }
+
+    #but {
+        text-align: center;
+        align-items: center;
+        padding: 15px 30px; 
+        background-color: #ba181b; 
+        color: white; 
+        border-radius: 30px; 
+        border: none; 
+        cursor: pointer; 
+        margin: 30px; 
+        font-size: 16px;
+        display: block;
+        margin: auto;
+    }
